@@ -1,0 +1,32 @@
+{
+  "name": "napi",
+  "version": "1.0.0",
+  "description": "Node.js CRUD REST API with SQL Server",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mssql",
+    "sqlserver",
+    "crud",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mssql": "^12.7.2",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
